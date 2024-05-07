@@ -272,19 +272,6 @@
       }
     },
     {
-      "name": "Mushroomgen",
-      "type": "code",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "mushroomgen",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/naturistic/Mushroomgen.java"
-        ]
-      }
-    },
-    {
       "name": "BerryBushOnTickUpdate",
       "type": "procedure",
       "sortid": 18,
@@ -329,6 +316,33 @@
           "src/main/resources/assets/naturistic/models/block/berry_bush.json",
           "src/main/resources/data/naturistic/loot_tables/blocks/berry_bush.json",
           "src/main/resources/assets/naturistic/models/item/berry_bush.json"
+        ]
+      }
+    },
+    {
+      "name": "Ravingpenisgen",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ravingpenisgen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/naturistic/procedures/RavingpenisgenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
