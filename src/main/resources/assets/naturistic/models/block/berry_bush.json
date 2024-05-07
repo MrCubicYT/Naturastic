@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "naturistic:block/dsadsa",
+    "up": "naturistic:block/dsadsa",
+    "north": "naturistic:block/dsadsa",
+    "east": "naturistic:block/dsadsa",
+    "south": "naturistic:block/dsadsa",
+    "west": "naturistic:block/dsadsa",
+    "particle": "naturistic:block/dsadsa"
+  },
+  "render_type": "solid"
+}

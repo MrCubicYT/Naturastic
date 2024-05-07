@@ -1,0 +1,38 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "naturistic:item/idk"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "naturistic:unknown_berry_rand": 0
+      },
+      "model": "naturistic:item/unknown_berry_0"
+    },
+    {
+      "predicate": {
+        "naturistic:unknown_berry_rand": 1
+      },
+      "model": "naturistic:item/unknown_berry_1"
+    },
+    {
+      "predicate": {
+        "naturistic:unknown_berry_rand": 2
+      },
+      "model": "naturistic:item/unknown_berry_2"
+    },
+    {
+      "predicate": {
+        "naturistic:unknown_berry_rand": 3
+      },
+      "model": "naturistic:item/unknown_berry_3"
+    },
+    {
+      "predicate": {
+        "naturistic:unknown_berry_rand": 4
+      },
+      "model": "naturistic:item/unknown_berry_4"
+    }
+  ]
+}

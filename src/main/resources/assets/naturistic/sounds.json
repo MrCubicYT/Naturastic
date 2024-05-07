@@ -1,0 +1,28 @@
+{
+  "summer": {
+    "subtitle": "subtitles.summer",
+    "sounds": [
+      {
+        "name": "naturistic:sparrow",
+        "stream": false
+      },
+      {
+        "name": "naturistic:finch",
+        "stream": false
+      },
+      {
+        "name": "naturistic:raven",
+        "stream": false
+      }
+    ]
+  },
+  "night": {
+    "subtitle": "subtitles.night",
+    "sounds": [
+      {
+        "name": "naturistic:owl",
+        "stream": false
+      }
+    ]
+  }
+}

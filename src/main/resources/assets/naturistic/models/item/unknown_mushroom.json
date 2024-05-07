@@ -1,0 +1,26 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "naturistic:item/brown_mushroom"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "naturistic:unknown_mushroom_tex": 5
+      },
+      "model": "naturistic:item/unknown_mushroom_0"
+    },
+    {
+      "predicate": {
+        "naturistic:unknown_mushroom_tex": 4
+      },
+      "model": "naturistic:item/unknown_mushroom_1"
+    },
+    {
+      "predicate": {
+        "naturistic:unknown_mushroom_tex": 3
+      },
+      "model": "naturistic:item/unknown_mushroom_2"
+    }
+  ]
+}

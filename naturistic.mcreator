@@ -1,0 +1,392 @@
+{
+  "mod_elements": [
+    {
+      "name": "UnknownBerryPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_berry_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/naturistic/procedures/UnknownBerryPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownBerryItemInHandTick",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_berry_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/naturistic/procedures/UnknownBerryItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownBerry",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_berry",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/naturistic/models/item/unknown_berry_0.json",
+          "src/main/resources/assets/naturistic/models/item/unknown_berry_3.json",
+          "src/main/resources/assets/naturistic/models/item/unknown_berry_1.json",
+          "src/main/resources/assets/naturistic/models/item/unknown_berry.json",
+          "src/main/resources/assets/naturistic/models/item/unknown_berry_2.json",
+          "src/main/resources/assets/naturistic/models/item/unknown_berry_4.json",
+          "src/main/java/net/mcreator/naturistic/item/UnknownBerryItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UnknownBerryPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_berry_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/naturistic/procedures/UnknownBerryPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownBerryPlayerFinishesUsingItem2",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_berry_player_finishes_using_item_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/naturistic/procedures/UnknownBerryPlayerFinishesUsingItem2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pingas",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pingas",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/naturistic/procedures/PingasProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownMushroomItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_mushroom_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/naturistic/procedures/UnknownMushroomItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownMushroom",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_mushroom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/naturistic/item/UnknownMushroomItem.java",
+          "src/main/resources/assets/naturistic/models/item/unknown_mushroom_1.json",
+          "src/main/resources/assets/naturistic/models/item/unknown_mushroom_2.json",
+          "src/main/resources/assets/naturistic/models/item/unknown_mushroom.json",
+          "src/main/resources/assets/naturistic/models/item/unknown_mushroom_0.json"
+        ]
+      }
+    },
+    {
+      "name": "UnknownMushroomRightclicked",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_mushroom_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/naturistic/procedures/UnknownMushroomRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BrownMushroom",
+      "type": "loottable",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_mushroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/blocks/brown_mushroom.json"
+        ]
+      }
+    },
+    {
+      "name": "UnknownMushroomPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_mushroom_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/naturistic/procedures/UnknownMushroomPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mushroomgen",
+      "type": "code",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mushroomgen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/naturistic/Mushroomgen.java"
+        ]
+      }
+    },
+    {
+      "name": "BerryBushOnTickUpdate",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berry_bush_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/naturistic/procedures/BerryBushOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BerryBush",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berry_bush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/naturistic/block/BerryBushBlock.java",
+          "src/main/resources/assets/naturistic/blockstates/berry_bush.json",
+          "src/main/resources/assets/naturistic/models/block/berry_bush.json",
+          "src/main/resources/data/naturistic/loot_tables/blocks/berry_bush.json",
+          "src/main/resources/assets/naturistic/models/item/berry_bush.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "summer",
+      "files": [
+        "sparrow",
+        "finch",
+        "raven"
+      ],
+      "category": "ambient",
+      "subtitle": "bird calls"
+    },
+    {
+      "name": "night",
+      "files": [
+        "owl"
+      ],
+      "category": "ambient",
+      "subtitle": "Night animal calls"
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:forge:seeds": [
+      "CUSTOM:UnknownBerry"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.naturistic.unknown_berry": "Unknown Berry",
+      "item.naturistic.unknown_mushroom": "Unknown Mushroom",
+      "subtitles.summer": "bird calls",
+      "block.naturistic.berry_bush": "Berry Bush",
+      "subtitles.night": "Night animal calls"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "naturistic",
+    "modName": "Naturistic",
+    "version": "1.0.0",
+    "author": "Elliot, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.naturistic"
+  },
+  "mcreatorVersion": 202400118518
+}
